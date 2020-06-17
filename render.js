@@ -1,4 +1,4 @@
-import render from "https://dev.jspm.io/preact-render-to-string";
+import render from "https://cdn.pika.dev/preact-render-to-string";
 
 import data from "http://localhost:8000/data.js";
 const items = data().items;

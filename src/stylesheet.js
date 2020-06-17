@@ -4,7 +4,6 @@ const styles = {
   }
 }
 
-import jss from 'https://dev.jspm.io/jss'
-const JSS = jss.default
-const sheet = JSS.createStyleSheet(styles)
+import jss from 'https://cdn.pika.dev/jss';
+const sheet = jss.createStyleSheet(styles)
 export default sheet
