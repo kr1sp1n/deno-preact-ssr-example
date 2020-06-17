@@ -1,5 +1,6 @@
 import { readJsonSync } from "https://deno.land/std/fs/mod.ts";
 import { listenAndServe } from "https://deno.land/std/http/mod.ts";
+
 const port = 8000;
 const options = { port };
 
