@@ -7,19 +7,19 @@ Furthermore `htm` is used as alternative to JSX and `jss` is used as CSS-in-JS f
 1. Start server on port 8000:
 
     ```bash
-    deno run --allow-net --allow-read --unstable server.js
+    deno run --allow-net --allow-read --unstable src/server.js
     ```
 
-2. Render html:
+2. Render html pages to `dist` dir:
 
     ```bash
-    deno run render.js > index.html
+    deno run --unstable --allow-read --allow-write src/render.js
     ```
 
-3. Open the `index.html` with any browser.
+3. Open the `dist/index.html` with any browser.
 
 4. Change `data.json` and render again by reloading only `http://localhost:8000/data.js`:
 
     ```bash
-    deno run --reload=http://localhost:8000/data.js render.js > index.html
+    deno run --unstable --allow-read --allow-write --reload=http://localhost:8000/data.js src/render.js
     ```

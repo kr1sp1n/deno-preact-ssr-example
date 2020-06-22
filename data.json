@@ -1,7 +1,13 @@
 {
-  "items": [
-    { "id": "1", "name": "WTF"},
-    { "id": "2", "name": "LOL"},
-    { "id": "3", "name": "ROFL"}
+  "pages": [
+    { "id": "index", "title": "Home"},
+    { "id": "calendar", "title": "Calendar"},
+    { "id": "about", "title": "About"}
+  ],
+  "events": [
+    {
+      "title": "Squash",
+      "start": "2020-06-18T16:00:00"
+    }
   ]
 }
